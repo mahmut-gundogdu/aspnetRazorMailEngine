@@ -1,0 +1,26 @@
+﻿<!--<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>-->
+    <table>
+
+        
+            @foreach (var item in Model){
+        <tr>
+            <td>
+                @if(item.Ad=="Mahmut"){
+                <b>@item.Ad</b>
+                }
+                else{
+                @item.Ad
+                }
+
+
+            </td>
+            <td>@item.OkulAdi</td>
+        </tr>}
+    </table>
+<!--</body>
+</html>-->
